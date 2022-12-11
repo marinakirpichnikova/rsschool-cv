@@ -28,3 +28,5 @@
  + CS50(Lection)
  + RS School
  
+ ## **English**
+ **A2** (I had been practicing English, when I worked in the USA as an exchange student)
