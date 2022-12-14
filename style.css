@@ -1,10 +1,36 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-<head>
-  <title>My first styled page</title>
-  <style type="text/css">
-  body {
-    color: purple;
-    background-color: #d8da3d }
-  </style>
-</head>
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+background-color: #EBECF0;
+}
+
+.main-section{
+  width: 210mm;
+  height: 297mm;
+  background-color: white;
+  margin: 0 auto;
+}
+.main-section .left-part{
+  width: 40%;
+  height: 100%;
+  background-color: #F4F4F4;
+  padding: 2.2rem;
+}
+
+.left-part .photo-container{
+marg
+}
+
+
+.left-part .photo-container img {
+  width: 100%;
+  height: 10%;
+  border-radius: 50%;
+  border: 1rem solid white;
+  box-shadow: rgba(149, 157, 165 0.2) 0px 8px 24px;
+}
