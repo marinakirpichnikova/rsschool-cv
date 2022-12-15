@@ -7,6 +7,9 @@
   <title>Responsive CV using HTML & CSS</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
+    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+  </svg>
 </head>
 
 <body>
@@ -16,13 +19,10 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoXcx_cFLfwvK6hUXD9t0mEzneHGiV1doEyeOShlkeRmsdfX0ObV29y5KX8skqh5rlSEw&usqp=CAU" alt="Photo">
     </div>
     <div class="contact-container">
-      <h2 class="title"> Contact Me </h2>
-      <ul class="Contact-info">
-        <li>
+      <h2 class="title"> Contact   Me </h2>
           <div class="contact-list">
             <div class="icon-container">
               <i class="bi bi-geo-alt-fill"></i>
-            </div>
           </div>
           <div class="contanct-text">
           <p> Grodno, Belarus</p>
@@ -41,13 +41,121 @@
           <i class="bi bi-envelope-at-fill"></i>
         </div>
       <div class="contanct-text">
-      <p>maryna@mail.ru</p>
+      <p>marina@mail.ru</p>
     </div>
     </div>
-        </li>
-      </ul>
     </div>
-    <div class="right-part"></div>
+    <div class="education-container">
+<h2 class="title">Education</h2>
+<div class="course">
+  <h2 class="education-title"> BSUIR</h2>
+  <p class="date">2015-2019</p>
+</div>
+<div class="course">
+  <h2 class="education-title"> Course "RS School"</h2>
+  <p class="date">2019</p>
+</div>
+<div class="course">
+  <h2 class="education-title"> Сonference IT Entrance</h2>
+  <p class="date">2020</p>
+</div>
+<div class="course">
+  <h2 class="education-title"> JavaScript Webinar: Web Worker </h2>
+  <p class="date">2021</p>
+</div>
+</div>
+<div class="skill-container">
+  <h2 class="title"> Skills </h2>
+      <div class="skill-list">
+        <div class="icon-container">
+          <i class="bi bi-toggle-on"></i>
+      </div>
+      <div class="skill-text">
+      <p> HTML</p>
+    </div>
+      </div>
+    <div class="skill-list">
+      <div class="icon-container">
+        <i class="bi bi-toggle-on"></i>
+      </div>
+    <div class="skill-text">
+    <p>CSS</p>
+  </div>
+    </div>
+  <div class="skill-list">
+    <div class="icon-container">
+      <i class="bi bi-toggle-on"></i>
+    </div>
+  <div class="skill-text">
+  <p>Git/GitHub</p>
+</div>
+</div>
+<div class="skill-list">
+  <div class="icon-container">
+    <i class="bi bi-toggle-on"></i>
+  </div>
+<div class="skill-text">
+<p>JavaScript (Basic)</p>
+</div>
+</div>
+</div>
+    </div>
+    <div class="right-part">
+<div class="banner">
+  <h1 class="firstname">Marina</h1>
+  <h1 class="lastname">Kirpichnikova</h1>
+  <p class="position">Frontend Developer</p>
+</div>
+
+<div class="aboutme-container">
+  <h2 class="title"> About  Me </h2>
+  <p class="text-me">I am 24 years old, I work as a design engineer. I think that my actual job will lead me to stagnation some day or other.  I really need in activities where I can develop during my life. That is why I`m here. My goal is to gain knowledge in the field of front-end development.</p>
+</div>
+
+<div class="code-container">
+  <h2 class="title">Code Examples</h2>
+  <div class="code">
+  <pre>
+    <code>function{color:blue} findLongestWord(text) {
+      let words = text.split(" ");
+      let word = "";
+      // for (let i = 0; i < words.length; i++) {
+      //     if (word.length < words[i].length) {
+      //         word = words[i];
+      //     }
+      // }
+      for (let item of words) {
+          if (word.length < item.length) {
+              word = item;
+          }
+      }
+      return (word);
+  }
+  const longestWord = findLongestWord("Lorem ipsum dolor sit 
+  amet, consectetur adipiscing elit. Praesent 
+  rutrum, quam sit amet semper tempus, velit 
+  nibh pellentesque dui, nec consectetur 
+  erat orci et libero. ");
+  console.log(longestWord);</code>
+    </pre>
+  </div>
+
+  <div class="languages-container">
+    <h2 class="title">Languages</h2>
+    <div class="language">
+    <div class="left-language">
+      <h4 class="name">Russian</h4>
+      <p class="level">Native speaker</p>
+    </div>
+    <div class="right-language">
+      <h4 class="name">English</h4>
+      <p class="level">A2 (B1 in process…)</p>
+    </div>
+  </div>
+    </div>
+</div>
+
+    </div>
   </section>
 </body>
 </html>  
