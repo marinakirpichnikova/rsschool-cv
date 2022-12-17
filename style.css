@@ -13,8 +13,8 @@ background-color: #EBECF0;
 }
 
 .main-section{
-  width: 240mm;
-  height: 350mm;
+  width: 350mm;
+  height: 480mm;
   background-color: white;
   margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -28,7 +28,7 @@ background-color: #EBECF0;
 }
 
 .left-part .photo-container{
-margin-bottom: 2.2rem;
+margin-bottom: 2.4rem;
 }
 
 
@@ -42,7 +42,7 @@ margin-bottom: 2.2rem;
 
 .title{
   font-family: 'Manrope', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   padding: 0.6rem;
   background-color: #444440;
@@ -58,10 +58,10 @@ margin-bottom: 2.2rem;
 .contact-container .contact-list{
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-family: 'Lato', sans-serif;
   color: #444440;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .education-container{
@@ -70,18 +70,18 @@ margin-bottom: 2.2rem;
 }
 
 .education-container .course{
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
  color: #414042;
 }
 
 .education-container .education-title{
-font-size: 1rem;
+font-size: 2rem;
 font-weight: 800;
-margin-bottom: .3rem;
+margin-bottom: 0.3rem;
 }
 
 .course .education-container .date{
-font-size: 0.2rem;
+font-size: 3rem;
 font-family: 'Lato', sans-serif;
 }
 
@@ -92,10 +92,10 @@ font-family: 'Lato', sans-serif;
 .skill-container .skill-list{
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
   font-family: 'Lato', sans-serif;
   color: #444440;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .main-section .right-part{
@@ -115,10 +115,10 @@ font-family: 'Lato', sans-serif;
  }
 
 .right-part .banner .firstname {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 .right-part .banner .lastname {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 400;
   letter-spacing: 0.5rem; 
   margin-top: -1rem ; 
@@ -127,19 +127,19 @@ font-family: 'Lato', sans-serif;
  .right-part .banner .position{
   letter-spacing: 0.3rem;
   margin-top: -0.2rem;
-  font-size: 1.1rem;
+  font-size: 2rem;
  }
 
 
  .text-me{
   font-family: 'Lato', sans-serif;
   color: #444440;
-  font-size: 1.5rem;
+  font-size: 3rem;
  }
 
  .code{
   font-family: 'Lato', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.6rem;
  }
 
  .languages-container .language{
@@ -152,5 +152,42 @@ font-family: 'Lato', sans-serif;
 
  .languages-container .language .name{
 font-weight: 600;
-font-size: 1.3rem;
+font-size: 2rem;
+ }
+
+ .languages-container .language .level{
+  font-weight: 400;
+  font-size: 1.5rem;
+ }
+
+ 
+ 
+.fotter{
+left: 0;
+ padding: 10px;
+ background: #4D4D4F;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+a{
+  margin-left: 10rem;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.fotter .yers{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.fotter .school{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+ }
+ .fotter .logo{
+  margin-right: 10rem;
  }
