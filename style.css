@@ -75,13 +75,13 @@ margin-bottom: 2.4rem;
 }
 
 .education-container .education-title{
-font-size: 2rem;
-font-weight: 800;
+font-size: 2.2rem;
+font-weight: 500;
 margin-bottom: 0.3rem;
 }
 
 .course .education-container .date{
-font-size: 3rem;
+font-size: 5rem;
 font-family: 'Lato', sans-serif;
 }
 
@@ -92,7 +92,7 @@ font-family: 'Lato', sans-serif;
 .skill-container .skill-list{
   display: flex;
   gap: 1rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.2rem;
   font-family: 'Lato', sans-serif;
   color: #444440;
   font-size: 2rem;
